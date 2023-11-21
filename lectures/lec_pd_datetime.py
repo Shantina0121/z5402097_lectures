@@ -23,6 +23,7 @@ CSVLOC = os.path.join(cfg.DATADIR, 'tsla_prc.csv')
 
 # Instance of `dt.datetime` with the current date/time
 dt_now = dt.datetime.now()
+repr(dt_now)
 
 # This will produce a string representing the date/time in `dt_now`
 print(dt_now)

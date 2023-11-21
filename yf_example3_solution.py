@@ -30,7 +30,8 @@ def qan_prc_to_csv(year):
             pth=pth,
             start=start,
             end=end)
+    return df
 
 if __name__ == "__main__":
     year = 2020
-    qan_prc_to_csv(year)
+    print(qan_prc_to_csv(year))
